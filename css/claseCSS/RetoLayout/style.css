@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+.nav {
+    background-color: gray;
+    padding: 10px;
+    list-style: none;
+    text-align: right;
+}
+
+.logo {
+    position: absolute;
+}
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main {
+  height: 500px;
+  background-color: cadetblue;
+}
+
+.parent {
+    display: inline-block;
+    height: 500px;
+    width: 250px;
+    padding: 10px;
+  background-color: salmon;
+}
+.box {
+    position: relative;
+    background-color: mediumpurple;
+    width: 230px;
+    height: 100px;
+    margin: 10px 0;
+    border-radius: 10px;
+}

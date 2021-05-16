@@ -1,0 +1,16 @@
+/*aplicale color rojo a todas las eiqtas p esten cerca de h2*/
+/*h2 + p { 
+    color: red;
+}*/
+/*
+h2 ~ p { 
+    color: red;
+}*/
+/*
+div > p {
+    color: red ;
+}*/
+
+div p {
+    color: red;
+}

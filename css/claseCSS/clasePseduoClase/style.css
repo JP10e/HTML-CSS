@@ -1,0 +1,29 @@
+.main-nav{
+    margin-top: 10px; /*modifica el tamaño del margen superior, espacio superior*/
+    list-style: none; /*modifica las viñetas de la lista*/
+    padding-left: 0;  /*modifica el espacio desde la izquierda hasta la lista*/
+    background-color: #134a44;
+}
+
+.main-nav__item {
+    display: inline-block; /*ordena elementos en forma orizontal*/
+}
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px; /*cajas redondeadas*/
+    text-decoration: none;
+}
+
+/*Hover cambia color al pone el mouse*/
+/*ACtive cambia de color con el clic*/
+/*after pone el "|" separador entre elementos*/
+.main-nav__item a:hover{
+    color: blue;
+}
+.main-nav__item a:active{
+    color: red;
+}
+.main-nav__item a::after{
+    content: " | ";
+}
